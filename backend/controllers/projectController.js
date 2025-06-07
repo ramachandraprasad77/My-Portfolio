@@ -1,6 +1,5 @@
 const Project = require('../models/Project');
 
-// GET /api/projects - Retrieve all projects
 exports.getProjects = async (req, res) => {
   try {
     const projects = await Project.find();
@@ -11,7 +10,6 @@ exports.getProjects = async (req, res) => {
   }
 };
 
-// POST /api/projects - Create a new project
 exports.createProject = async (req, res) => {
   try {
     const { title, description, liveUrl, repoUrl } = req.body;
