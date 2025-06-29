@@ -42,7 +42,7 @@ function Projects() {
             temperature, humidity, wind speed, and UV index for any location.
           </p>
           <a
-            href="https://fitpeo-healthcare.netlify.app/"
+            href="https://prasad-weatherforecast.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
