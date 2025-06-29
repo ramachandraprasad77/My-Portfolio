@@ -13,7 +13,8 @@ function Projects() {
             href="https://prasad-emailsequencer.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition">
+            className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
+          >
             Goto
           </a>
         </div>
@@ -21,18 +22,35 @@ function Projects() {
         <div className="p-6 bg-white shadow rounded">
           <h2 className="text-2xl font-semibold mb-2">Healthcare App</h2>
           <p className="text-gray-700">
-            A single-page "Healthcare Dashboard" using React-vite. 
-            Break down a complex UI into reusable React components.
+            A single-page "Healthcare Dashboard" using React-vite. Break down a
+            complex UI into reusable React components.
           </p>
           <a
             href="https://fitpeo-healthcare.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition">
+            className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
+          >
             Goto
           </a>
         </div>
-        
+
+        <div className="p-6 bg-white shadow rounded">
+          <h2 className="text-2xl font-semibold mb-2">Weather Forecast</h2>
+          <p className="text-gray-700">
+            🌦️ A sleek weather forecast app delivering real-time data including
+            temperature, humidity, wind speed, and UV index for any location.
+          </p>
+          <a
+            href="https://fitpeo-healthcare.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block px-4 py-2 bg-teal-500 text-white rounded hover:bg-teal-600 transition"
+          >
+            Goto
+          </a>
+        </div>
+
         <div className="p-6 bg-white shadow rounded">
           <h2 className="text-2xl font-semibold mb-2">Mini Blog App</h2>
           <p className="text-gray-700">
@@ -40,7 +58,7 @@ function Projects() {
             register, login, create posts, and comment.
           </p>
         </div>
-      
+
         <div className="p-6 bg-white shadow rounded">
           <h2 className="text-2xl font-semibold mb-2">To-do List App</h2>
           <p className="text-gray-700">
